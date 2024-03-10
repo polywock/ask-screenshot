@@ -1,0 +1,36 @@
+{
+    "patches": [
+        {
+            "version": "alpha",
+            "cla": {
+                "inputBar": "div.ProseMirror[contenteditable]",
+                "inputBarPlaceholder": "& > p.is-editor-empty",
+                "sendButton": "div[data-value=\"new chat\" i] > button.rounded-xl",
+                "imageLoading": "div:has(> div[data-value=\"new chat\" i]) svg.animate-spin",
+                "sendButtonAlt": "button[aria-label=\"send message\" i]",
+                "dropTarget": "div:has(> div > div > fieldset)",
+                "dropOrigin": "body",
+                "clearFile": "button[class*=\"translate-x\"]"
+             },
+             "gem": {
+                "inputBar": "div.ql-editor",
+                "inputBarBlank": "div.ql-editor.ql-blank",
+                "sendButton": "button[aria-label=\"send message\" i]:not([aria-disabled=\"true\"]):has(mat-icon)",
+                "stopButton": "button[aria-label=\"send message\" i]:has(svg[alt=\"skip response icon\" i])",
+                "dropTarget": "div[xapfileselectordropzone]",
+                "clearFile": "button[aria-label=\"remove attached file\" i]",
+                "replaceButtons": "replace-file-dialog mat-dialog-actions > button",
+                "postDispatchTimeout": 250
+             },
+            "gpt": {
+                "inputBar": "#prompt-textarea",
+                "filePicker": "button[aria-label=\"attach files\" i]",
+                "sendButton": "button[data-testid=\"send-button\"]",
+                "stopButton": "button[aria-label=\"stop generating\" i]",
+                "imgQueryParam": "?model=gpt-4",
+                "dropOrigin": "__next",
+                "dropTarget": "div[role=\"presentation\"]"
+            }
+        }
+    ]
+}
