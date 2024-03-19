@@ -10,7 +10,9 @@
                 "sendButtonAlt": "button[aria-label=\"send message\" i]",
                 "dropTarget": "div:has(> div > div > fieldset)",
                 "dropOrigin": "body",
-                "clearFile": "button[class*=\"translate-x\"]"
+                "clearFile": "button[class*=\"translate-x\"]",
+                "imagesTimeout": 1000,
+                "imageTimeout": 1000
              },
              "gem": {
                 "inputBar": "div.ql-editor",
