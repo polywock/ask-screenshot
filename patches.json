@@ -12,7 +12,7 @@
                 "dropOrigin": "body",
                 "clearFile": "button[class*=\"translate-x\"]",
                 "imagesTimeout": 1000,
-                "imageTimeout": 1000
+                "imageTimeout": 250
              },
              "gem": {
                 "inputBar": "div.ql-editor",

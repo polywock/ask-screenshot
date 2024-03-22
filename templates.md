@@ -55,7 +55,6 @@ Translate into {{ ask = Which language? :: default3 = Portuguese }}.
 
 
 ### Selection mode 
-By default, templates in selection mode automatically include the selection in the end of the text block. However, with the `{{selection}}` placeholder, you can place it wherever you wish. The plac
 By default, templates in selection mode automatically include the selection in the end of the text block. However, with the `{{selection}}` placeholder, you can place it wherever you wish. The placeholder will be replaced with the currently selected text. 
 
 ```text
