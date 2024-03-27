@@ -6,7 +6,7 @@ This document may later change so re-visit regularly.
 
 The extension(s) faciliate communicate with ChatGPT, Claude, and Gemini so it's recommended to read their privacy policies. 
 
-The extension(s) regularly fetches a file hosted on Github so it's recommended to read their [privacy policy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). 
+The extension(s) regularly fetches a file hosted on Github so it's recommended to read Github's [privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). 
 
 
 ### Data safety - Best practices - Must read 

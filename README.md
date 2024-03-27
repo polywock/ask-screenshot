@@ -1,13 +1,12 @@
 
-# Ask Screenshot 
+# Ask Screenshot - Issue Tracker
 
-Issue Tracker for Ask Screenshot extension(s).
+For ChatGPT:  [Edge](https://microsoftedge.microsoft.com/addons/detail/ask-screenshot-for-chatgp/ffhekobogobkggjnkpgcnfkgpaljopae), [Chrome](https://chromewebstore.google.com/detail/ask-screenshot-for-chatgp/jkghfpjmliifaghcjcnjpgbmfnbcpnac), or [Firefox](https://addons.mozilla.org/firefox/addon/ask-screenshot-for-chatgpt).
 
+For Claude:  [Edge](https://microsoftedge.microsoft.com/addons/detail/ask-screenshot-for-claude/lpdgiljagdneohekllnflblemblamhfj), [Chrome](https://chromewebstore.google.com/detail/ask-screenshot-for-claude/ebmfbghckgagobmhocmjjcpbgcdfcckf), or [Firefox](https://addons.mozilla.org/firefox/addon/ask-screenshot-for-claude/).
 
-For ChatGPT: [Chrome](https://chromewebstore.google.com/detail/ask-screenshot-for-chatgp/jkghfpjmliifaghcjcnjpgbmfnbcpnac), [Firefox](https://addons.mozilla.org/firefox/addon/ask-screenshot-for-chatgpt) or [Edge](https://microsoftedge.microsoft.com/addons/detail/ask-screenshot-for-chatgp/ffhekobogobkggjnkpgcnfkgpaljopae).
-
-For Claude: [Chrome](https://chromewebstore.google.com/detail/ask-screenshot-for-claude/ebmfbghckgagobmhocmjjcpbgcdfcckf), [Firefox](https://addons.mozilla.org/firefox/addon/ask-screenshot-for-claude/) or Edge (Still publishing).
-
-For Gemini: [Chrome](https://chromewebstore.google.com/detail/ask-screenshot-for-gemini/jekbndjaglmlbjijmnnjofggjaifajmm), [Firefox](https://addons.mozilla.org/firefox/addon/ask-screenshot-for-gemini) or Edge (Still publishing).
+For Gemini:  [Edge](https://microsoftedge.microsoft.com/addons/detail/ask-screenshot-for-gemini/lefcfideebpfjmnkebpifoakhnoabgkn), [Chrome](https://chromewebstore.google.com/detail/ask-screenshot-for-gemini/jekbndjaglmlbjijmnnjofggjaifajmm), or [Firefox](https://addons.mozilla.org/firefox/addon/ask-screenshot-for-gemini).
 
 <img src="./screenshot.png">
+
+<video src="./demoGpt.mov">
