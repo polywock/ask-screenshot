@@ -11,7 +11,7 @@
                 "dropTarget": "div:has(> div > div > fieldset)",
                 "dropOrigin": "body",
                 "clearFile": "button[class*=\"translate-x\"]",
-                "imagesTimeout": 2000,
+                "imagesTimeout": 1000,
                 "imageTimeout": 250,
                 "models": [
                     {"label": "Opus", "value": "opus", "slug": "claude-3-opus-20240229"},
