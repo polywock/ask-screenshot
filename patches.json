@@ -11,7 +11,7 @@
                 "dropTarget": "div:has(> div > div > fieldset)",
                 "dropOrigin": "body",
                 "clearFile": "button[class*=\"translate-x\"]",
-                "imagesTimeout": 1000,
+                "imagesTimeout": 2000,
                 "imageTimeout": 250,
                 "models": [
                     {"label": "Opus", "value": "opus", "slug": "claude-3-opus-20240229"},
@@ -30,13 +30,20 @@
                 "postDispatchTimeout": 250
              },
             "gpt": {
+                "generalDelay": 300,
+                "gizmoDelay": 1000,
                 "inputBar": "#prompt-textarea",
                 "filePicker": "button[aria-label=\"attach files\" i]",
                 "sendButton": "button[data-testid=\"send-button\"]",
                 "stopButton": "button[aria-label=\"stop generating\" i]",
                 "imgQueryParam": "?model=gpt-4",
                 "dropOrigin": "__next",
-                "dropTarget": "div[role=\"presentation\"]"
+                "dropTarget": "div[role=\"presentation\"]",
+
+                "astInputBar": ".add-message-section > textarea.text-input",
+                "astSendButton": ".thread-input-button-group button.btn-action-primary",
+                "astLoading": ".add-message-wrapper > .add-message-section.disabled",
+                "astDropTarget": ".playground-drop-target"
             },
             "poe": {
                 "inputBar": "footer textarea",
