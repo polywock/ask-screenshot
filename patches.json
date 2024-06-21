@@ -14,10 +14,10 @@
                 "imagesTimeout": 2000,
                 "imageTimeout": 250,
                 "models": [
-                    {"label": "Sonnet 3.5", "value": "sonnet3.5", "slug": "claude-3-5-sonnet-20240620"},
-                    {"label": "Opus", "value": "opus", "slug": "claude-3-opus-20240229"},
-                    {"label": "Sonnet", "value": "sonnet" , "slug": "claude-3-sonnet-20240229"},
-                    {"label": "Haiku", "value": "haiku" , "slug": "claude-3-haiku-20240307"}
+                    {"label": "Sonnet 3.5", "value": "sonnet", "slug": "claude-3-5-sonnet-20240620"},
+                    {"label": "Opus (Legacy)", "value": "opus", "slug": "claude-3-opus-20240229"},
+                    {"label": "Sonnet (Legacy)", "value": "sonnet3" , "slug": "claude-3-sonnet-20240229"},
+                    {"label": "Haiku (Legacy)", "value": "haiku" , "slug": "claude-3-haiku-20240307"}
                 ]
              },
              "gem": {
