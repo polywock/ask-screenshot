@@ -5,10 +5,10 @@
             "cla": {
                 "inputBar": "div.ProseMirror[contenteditable]",
                 "inputBarPlaceholder": "& > p.is-editor-empty",
-                "sendButton": "div[data-value=\"new chat\" i] > button.rounded-xl",
-                "imageLoading": "div:has(> div[data-value=\"new chat\" i]) svg.animate-spin",
+                "sendButton": "button[aria-label=\"send message\" i]",
+                "imageLoading": "button[aria-label=\"send message\" i][disabled]",
                 "sendButtonAlt": "button[aria-label=\"send message\" i]",
-                "dropTarget": "div:has(> div > div > fieldset)",
+                "dropTarget": "div > div:has(> fieldset input)",
                 "dropOrigin": "body",
                 "clearFile": "button[class*=\"translate-x\"]",
                 "imagesTimeout": 2000,
