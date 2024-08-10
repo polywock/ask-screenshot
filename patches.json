@@ -35,7 +35,7 @@
                 "gizmoDelay": 1000,
                 "inputBar": "#prompt-textarea",
                 "filePicker": "button[aria-label=\"attach files\" i]",
-                "sendButton": "button[data-testid=\"fruitjuice-send-button\"]",
+                "sendButton": "button[data-testid=\"fruitjuice-send-button\"], button[data-testid=\"send-button\"]",
                 "stopButton": "button[aria-label=\"stop generating\" i]",
                 "imgQueryParam": "?model=gpt-4",
                 "dropOrigin": "__next",
