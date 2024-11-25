@@ -33,7 +33,7 @@
             "gpt": {
                 "generalDelay": 100,
                 "gizmoDelay": 1000,
-                "inputBar": "div.ProseMirror[contenteditable]",
+                "inputBar": "#prompt-textarea",
                 "filePicker": "button[aria-label=\"attach files\" i]",
                 "sendButton": "button[data-testid=\"fruitjuice-send-button\"], button[data-testid=\"send-button\"]",
                 "stopButton": "button[aria-label=\"stop generating\" i]",
