@@ -1,0 +1,8 @@
+{
+    "alpha": {
+        "speechButton": "button[data-testid=\"composer-speech-button\"]:not([disabled])",
+        "speechButtonAlt": null,
+        "speechIsOpen": "div.lk-room-container",
+        "speechIsOpenAlt": null
+    }
+}
