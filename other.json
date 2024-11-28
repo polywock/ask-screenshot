@@ -3,6 +3,8 @@
         "speechButton": "button[data-testid=\"composer-speech-button\"]:not([disabled])",
         "speechButtonAlt": null,
         "speechIsOpen": "div.lk-room-container",
-        "speechIsOpenAlt": null
+        "speechIsOpenAlt": null,
+        "speechClose": "div.lk-room-container button:has(.icon-xl.text-token-main-surface-primary-inverse)",
+        "speechCloseAlt": null
     }
 }
