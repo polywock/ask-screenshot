@@ -25,7 +25,7 @@
                 "inputBarBlank": "div.ql-editor.ql-blank",
                 "sendButton": "button[aria-label=\"send message\" i]:not([aria-disabled=\"true\"]):has(mat-icon)",
                 "stopButton": "button[aria-label=\"send message\" i]:has(svg[alt=\"skip response icon\" i])",
-                "dropTarget": "div[xapfileselectordropzone]",
+                "dropTarget": "div[file-drop-zone]",
                 "clearFile": "button[aria-label=\"remove attached file\" i]",
                 "replaceButtons": "replace-file-dialog mat-dialog-actions > button",
                 "postDispatchTimeout": 250
@@ -37,25 +37,10 @@
                 "filePicker": "button[aria-label=\"attach files\" i]",
                 "sendButton": "button[data-testid=\"fruitjuice-send-button\"], button[data-testid=\"send-button\"]",
                 "stopButton": "button[aria-label=\"stop generating\" i]",
-                "imgQueryParam": "",
+                "imgQueryParam": null,
                 "dropOrigin": "body",
                 "dropTarget": "div[role=\"presentation\"]"
-            },
-            "poe": {
-                "inputBar": "footer textarea",
-                "stopButton": "button[aria-label=\"stop message\" i]",
-                "sendButton": "button[class*=\"sendButton\" i]",
-                "botName": "header p[class*=\"ChatHeader_subText\" i]",
-                "dropOrigin": "__next",
-                "dropTarget": "main div[class*=\"ChatDragDropTarget\" i]"
             }
-        },
-        {
-            "version": "bravo",
-            "cla": { },
-            "gem": { },
-            "gpt": { "imgQueryParam": null },
-            "poe": { }
         }
     ]
 }
