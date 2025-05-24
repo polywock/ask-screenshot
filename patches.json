@@ -6,18 +6,14 @@
                 "inputBar": "div.ProseMirror[contenteditable]",
                 "inputBarPlaceholder": "& > p.is-editor-empty",
                 "sendButton": "button[aria-label=\"send message\" i]",
-                "imageLoading": "button[aria-label=\"send message\" i][disabled]",
-                "sendButtonAlt": "button[aria-label=\"send message\" i]",
-                "dropTarget": "div > div:has(> fieldset input)",
-                "dropOrigin": "body",
-                "clearFile": "button[class*=\"translate-x\"]",
-                "imagesTimeout": 2000,
+                "dropTarget": "fieldset > div.flex.flex-col.bg-bg-000 > div:last-child",
+                "dropOrigin": "document",
+                "dragOrigin": "body",
+                "clearFile": ".group\\/thumbnail > button",
                 "imageTimeout": 250,
                 "models": [
-                    {"label": "Sonnet 3.5", "value": "sonnet", "slug": "claude-3-5-sonnet-20240620"},
-                    {"label": "Opus (Legacy)", "value": "opus", "slug": "claude-3-opus-20240229"},
-                    {"label": "Sonnet (Legacy)", "value": "sonnet3" , "slug": "claude-3-sonnet-20240229"},
-                    {"label": "Haiku (Legacy)", "value": "haiku" , "slug": "claude-3-haiku-20240307"}
+                    {"label": "Sonnet 4", "value": "sonnet", "slug": "claude-sonnet-4-20250514"},
+                    {"label": "Opus 4", "value": "opus", "slug": "claude-opus-4-20250514"}
                 ]
              },
              "gem": {
