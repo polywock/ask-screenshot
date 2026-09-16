@@ -19,7 +19,7 @@
              "gem": {
                 "inputBar": "div.ql-editor",
                 "inputBarBlank": "div.ql-editor.ql-blank",
-                "sendButton": "button[aria-label=\"send message\" i]:not([aria-disabled=\"true\"]):has(mat-icon)",
+                "sendButton": ":root:not(:has(.gem-attachment-content.loading)) button[aria-label=\"send message\" i]:not([aria-disabled=\"true\"]):has(mat-icon)",
                 "stopButton": "button[aria-label=\"send message\" i]:has(svg[alt=\"skip response icon\" i])",
                 "dropTarget": "div[file-drop-zone]",
                 "clearFile": "button[aria-label=\"remove attached file\" i]",
